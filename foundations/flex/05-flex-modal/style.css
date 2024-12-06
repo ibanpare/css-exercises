@@ -21,6 +21,21 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   display: flex;
+  padding: 15px;
+  gap: 10px;
+}
+
+.header {
+  display: flex;
+}
+
+.text {
+  margin: 10px 0px;
+}
+
+.title {
+  font-size: larger;
+  font-weight: bold;;
 }
 
 .icon {
@@ -50,6 +65,7 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+  margin-left: auto;
 }
 
 button {

@@ -21,6 +21,8 @@ body {
 
 .right-links {
   display: flex;
+  margin-left: auto;
+  align-items: center;
 }
 
 .profile-image {

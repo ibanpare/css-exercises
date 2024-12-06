@@ -2,6 +2,8 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  align-items: center;
+  padding: 7px;
 }
 
 .logo {
@@ -25,6 +27,13 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  margin: 0px 10px;
 }
 
 a {

@@ -53,11 +53,11 @@ input {
 
 ul {
   padding: 0;
+  gap: 16px;
 }
 
 li {
   list-style-type: none;
-  margin-right: 15px;
 }
 
 a {

@@ -14,7 +14,17 @@ body {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   height: 40px;
+  padding: 5px 15px;
+}
+
+.header {
+  font-size: 15px;
+}
+
+.footer {
+  background-color: rgb(239 239 239);
 }
 
 .left-links, .right-links {
@@ -30,6 +40,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 5px 15px;
 }
 
 input {
@@ -37,4 +48,19 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(144 149 158);
 }

@@ -21,6 +21,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 30px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 
 .footer {
@@ -28,6 +33,9 @@ body {
   background: #eee;
   color: darkmagenta;
   margin-top: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
